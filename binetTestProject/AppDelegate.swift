@@ -15,7 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if NetworkManager.shared.sessionID == nil {
+            let rootController = self.window?.rootViewController
+            NetworkManager.shared.createSession{ (sessionID, error) in
+                DispatchQueue.main.async {
+                    if let errorDesciption = error?.localizedDescription {
+                        rootController?.presentSimpleAlertController(title: errorDesciption)
+                    } else {
+                        rootController?.presentSimpleAlertController(title: "Создана новая сессия:")
+                    }
+                }
+            }
+        }
         return true
     }
 

@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA23A32F227F4F0200428CA0 /* EntryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23A32D227F4F0200428CA0 /* EntryTVCell.swift */; };
+		DA23A330227F4F0200428CA0 /* EntryTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA23A32E227F4F0200428CA0 /* EntryTVCell.xib */; };
+		DA23A332227F4F0E00428CA0 /* EntryTVCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23A331227F4F0E00428CA0 /* EntryTVCellViewModel.swift */; };
+		DA23A337227F54FC00428CA0 /* EntryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23A334227F54FC00428CA0 /* EntryDetailViewModel.swift */; };
+		DA23A33B227F5B8A00428CA0 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23A33A227F5B8A00428CA0 /* UIViewControllerExtension.swift */; };
+		DA23A33F227F6A2900428CA0 /* AddEntryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23A33E227F6A2900428CA0 /* AddEntryResponse.swift */; };
+		DA23A341227F6A3C00428CA0 /* CreateSessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23A340227F6A3C00428CA0 /* CreateSessionResponse.swift */; };
+		DA23A345227F7BB900428CA0 /* EntryDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23A344227F7BB900428CA0 /* EntryDetailController.swift */; };
+		DA7F56F5227F327000B18A93 /* EntriesTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F56F4227F327000B18A93 /* EntriesTViewModel.swift */; };
+		DA7F56F8227F327A00B18A93 /* EntryEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F56F6227F327A00B18A93 /* EntryEditorController.swift */; };
+		DA7F56F9227F327A00B18A93 /* EntryEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F56F7227F327A00B18A93 /* EntryEditorViewModel.swift */; };
+		DA7F56FB227F349B00B18A93 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F56FA227F349B00B18A93 /* Router.swift */; };
+		DA7F56FD227F3A8700B18A93 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F56FC227F3A8700B18A93 /* NetworkError.swift */; };
+		DA7F56FF227F3DA200B18A93 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F56FE227F3DA200B18A93 /* NetworkManager.swift */; };
+		DA7F5701227F4A4700B18A93 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F5700227F4A4700B18A93 /* Response.swift */; };
+		DA7F5703227F4E3E00B18A93 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F5702227F4E3E00B18A93 /* Observable.swift */; };
 		DACEB3AC227F2C66009E453A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEB3AB227F2C66009E453A /* AppDelegate.swift */; };
-		DACEB3AE227F2C66009E453A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEB3AD227F2C66009E453A /* ViewController.swift */; };
 		DACEB3B1227F2C66009E453A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACEB3AF227F2C66009E453A /* Main.storyboard */; };
 		DACEB3B3227F2C66009E453A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACEB3B2227F2C66009E453A /* Assets.xcassets */; };
 		DACEB3B6227F2C66009E453A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACEB3B4227F2C66009E453A /* LaunchScreen.storyboard */; };
+		DACEB3CF227F30A1009E453A /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEB3CE227F30A1009E453A /* Entry.swift */; };
+		DACEB3DB227F31FC009E453A /* EntriesTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEB3D9227F31FC009E453A /* EntriesTVController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA23A32D227F4F0200428CA0 /* EntryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntryTVCell.swift; path = binetTestProject/EntryTVCell.swift; sourceTree = SOURCE_ROOT; };
+		DA23A32E227F4F0200428CA0 /* EntryTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EntryTVCell.xib; path = binetTestProject/EntryTVCell.xib; sourceTree = SOURCE_ROOT; };
+		DA23A331227F4F0E00428CA0 /* EntryTVCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntryTVCellViewModel.swift; path = binetTestProject/EntryTVCellViewModel.swift; sourceTree = SOURCE_ROOT; };
+		DA23A334227F54FC00428CA0 /* EntryDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailViewModel.swift; sourceTree = "<group>"; };
+		DA23A33A227F5B8A00428CA0 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DA23A33E227F6A2900428CA0 /* AddEntryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryResponse.swift; sourceTree = "<group>"; };
+		DA23A340227F6A3C00428CA0 /* CreateSessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessionResponse.swift; sourceTree = "<group>"; };
+		DA23A344227F7BB900428CA0 /* EntryDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailController.swift; sourceTree = "<group>"; };
+		DA7F56F4227F327000B18A93 /* EntriesTViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesTViewModel.swift; sourceTree = "<group>"; };
+		DA7F56F6227F327A00B18A93 /* EntryEditorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryEditorController.swift; sourceTree = "<group>"; };
+		DA7F56F7227F327A00B18A93 /* EntryEditorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryEditorViewModel.swift; sourceTree = "<group>"; };
+		DA7F56FA227F349B00B18A93 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DA7F56FC227F3A8700B18A93 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DA7F56FE227F3DA200B18A93 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DA7F5700227F4A4700B18A93 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		DA7F5702227F4E3E00B18A93 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		DACEB3A8227F2C66009E453A /* binetTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = binetTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACEB3AB227F2C66009E453A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DACEB3AD227F2C66009E453A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DACEB3B0227F2C66009E453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DACEB3B2227F2C66009E453A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACEB3B5227F2C66009E453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACEB3B7227F2C66009E453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACEB3CE227F30A1009E453A /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		DACEB3D9227F31FC009E453A /* EntriesTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesTVController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +69,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA23A333227F54FC00428CA0 /* EntryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DA23A334227F54FC00428CA0 /* EntryDetailViewModel.swift */,
+				DA23A344227F7BB900428CA0 /* EntryDetailController.swift */,
+			);
+			path = EntryDetail;
+			sourceTree = "<group>";
+		};
+		DA23A339227F5B5F00428CA0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA7F5702227F4E3E00B18A93 /* Observable.swift */,
+				DA23A33A227F5B8A00428CA0 /* UIViewControllerExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DA23A33C227F6A0700428CA0 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				DA7F5700227F4A4700B18A93 /* Response.swift */,
+				DA23A33E227F6A2900428CA0 /* AddEntryResponse.swift */,
+				DA23A340227F6A3C00428CA0 /* CreateSessionResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		DA7F5704227F4EA300B18A93 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA23A32D227F4F0200428CA0 /* EntryTVCell.swift */,
+				DA23A32E227F4F0200428CA0 /* EntryTVCell.xib */,
+				DA23A331227F4F0E00428CA0 /* EntryTVCellViewModel.swift */,
+			);
+			name = Cell;
+			path = ../EntityDetail/Cell;
+			sourceTree = "<group>";
+		};
 		DACEB39F227F2C66009E453A = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +127,57 @@
 		DACEB3AA227F2C66009E453A /* binetTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				DACEB3AB227F2C66009E453A /* AppDelegate.swift */,
-				DACEB3AD227F2C66009E453A /* ViewController.swift */,
+				DA23A333227F54FC00428CA0 /* EntryDetail */,
+				DACEB3BE227F2F9A009E453A /* EntryEditor */,
+				DACEB3BD227F2F8D009E453A /* EntriesTable */,
+				DACEB3CD227F306E009E453A /* Model */,
+				DACEB3CC227F305C009E453A /* NetworkLayer */,
+				DA23A339227F5B5F00428CA0 /* Helpers */,
 				DACEB3AF227F2C66009E453A /* Main.storyboard */,
+				DACEB3AB227F2C66009E453A /* AppDelegate.swift */,
 				DACEB3B2227F2C66009E453A /* Assets.xcassets */,
 				DACEB3B4227F2C66009E453A /* LaunchScreen.storyboard */,
 				DACEB3B7227F2C66009E453A /* Info.plist */,
 			);
 			path = binetTestProject;
+			sourceTree = "<group>";
+		};
+		DACEB3BD227F2F8D009E453A /* EntriesTable */ = {
+			isa = PBXGroup;
+			children = (
+				DA7F5704227F4EA300B18A93 /* Cell */,
+				DACEB3D9227F31FC009E453A /* EntriesTVController.swift */,
+				DA7F56F4227F327000B18A93 /* EntriesTViewModel.swift */,
+			);
+			path = EntriesTable;
+			sourceTree = "<group>";
+		};
+		DACEB3BE227F2F9A009E453A /* EntryEditor */ = {
+			isa = PBXGroup;
+			children = (
+				DA7F56F6227F327A00B18A93 /* EntryEditorController.swift */,
+				DA7F56F7227F327A00B18A93 /* EntryEditorViewModel.swift */,
+			);
+			path = EntryEditor;
+			sourceTree = "<group>";
+		};
+		DACEB3CC227F305C009E453A /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DA23A33C227F6A0700428CA0 /* Response */,
+				DA7F56FA227F349B00B18A93 /* Router.swift */,
+				DA7F56FC227F3A8700B18A93 /* NetworkError.swift */,
+				DA7F56FE227F3DA200B18A93 /* NetworkManager.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		DACEB3CD227F306E009E453A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DACEB3CE227F30A1009E453A /* Entry.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA23A330227F4F0200428CA0 /* EntryTVCell.xib in Resources */,
 				DACEB3B6227F2C66009E453A /* LaunchScreen.storyboard in Resources */,
 				DACEB3B3227F2C66009E453A /* Assets.xcassets in Resources */,
 				DACEB3B1227F2C66009E453A /* Main.storyboard in Resources */,
@@ -135,8 +252,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACEB3AE227F2C66009E453A /* ViewController.swift in Sources */,
+				DA7F5703227F4E3E00B18A93 /* Observable.swift in Sources */,
+				DACEB3DB227F31FC009E453A /* EntriesTVController.swift in Sources */,
+				DA7F56F8227F327A00B18A93 /* EntryEditorController.swift in Sources */,
+				DA23A332227F4F0E00428CA0 /* EntryTVCellViewModel.swift in Sources */,
+				DA23A33B227F5B8A00428CA0 /* UIViewControllerExtension.swift in Sources */,
+				DA7F56F9227F327A00B18A93 /* EntryEditorViewModel.swift in Sources */,
+				DA7F56FB227F349B00B18A93 /* Router.swift in Sources */,
+				DA23A33F227F6A2900428CA0 /* AddEntryResponse.swift in Sources */,
+				DA23A337227F54FC00428CA0 /* EntryDetailViewModel.swift in Sources */,
+				DA7F5701227F4A4700B18A93 /* Response.swift in Sources */,
+				DA7F56FF227F3DA200B18A93 /* NetworkManager.swift in Sources */,
+				DACEB3CF227F30A1009E453A /* Entry.swift in Sources */,
+				DA7F56F5227F327000B18A93 /* EntriesTViewModel.swift in Sources */,
 				DACEB3AC227F2C66009E453A /* AppDelegate.swift in Sources */,
+				DA23A32F227F4F0200428CA0 /* EntryTVCell.swift in Sources */,
+				DA23A345227F7BB900428CA0 /* EntryDetailController.swift in Sources */,
+				DA7F56FD227F3A8700B18A93 /* NetworkError.swift in Sources */,
+				DA23A341227F6A3C00428CA0 /* CreateSessionResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
