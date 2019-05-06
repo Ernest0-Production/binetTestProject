@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     if let errorDesciption = error?.localizedDescription {
                         rootController?.presentSimpleAlertController(title: errorDesciption)
                     } else {
-                        rootController?.presentSimpleAlertController(title: "Создана новая сессия:")
+                        rootController?.presentSimpleAlertController(title: "Создана новая сессия :)")
                     }
                 }
             }

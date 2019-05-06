@@ -11,7 +11,9 @@ import Foundation
 class NetworkManager {
     static let shared = NetworkManager()
     private let session = URLSession.shared
-    let sessionID: String? = UserDefaults.standard.value(forKey: "sessionID") as? String
+    var sessionID: String? {
+        return UserDefaults.standard.value(forKey: "sessionID") as? String
+    }
     
     private init() {}
     
